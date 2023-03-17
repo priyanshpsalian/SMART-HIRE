@@ -167,9 +167,9 @@ const Footer = () => {
                     <Row >
                         <Col lg={12}>
                             <p className="text-white-50 text-center mb-0">
-                                {new Date().getFullYear()} &copy; Jobcy - Job Listing Page
-                                Template by <Link to="//themesdesign.in/" target="_blank"
-                                    className="text-reset text-decoration-underline">Themesdesign</Link>
+                                {new Date().getFullYear()} &copy; Jobcy - Smart Hire
+                                Created by <Link to="" target="_blank"
+                                    className="text-reset text-decoration-underline">Code Of Duty</Link>
                             </p>
                         </Col>
                     </Row>

@@ -1,13 +1,13 @@
 import React from 'react';
-import Section from '../Contact/Section'
-import ContactContent from '../Contact/ContactContent';
+import Section from './Section'
+import ContactContent from './UserReqireContent';
 import MetaTags from "react-meta-tags";
 
-const Contact = () => {
+const UserReqire = () => {
     return (
         <React.Fragment>
             <MetaTags>
-                <title>Contact | Jobcy - Job Listing Template | Themesdesign</title>
+                <title>Job Requirements | Jobcy - Job Listing</title>
             </MetaTags>
             <Section/>
             <ContactContent/>
@@ -15,4 +15,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default UserReqire;

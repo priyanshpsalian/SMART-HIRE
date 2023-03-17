@@ -8,15 +8,14 @@ import contactImage from "../../assets/images/contact.png";
 const ContactContent = () => {    
     
     return (
-        <React.Fragment>
+        <React.Fragment> 
              <section className="section">
                         <Container>
                             <Row className="align-items-center mt-5">
                                 <Col lg={6}>
                                     <div className="section-title mt-4 mt-lg-0">
-                                        <h3 className="title">Get in touch</h3>
-                                        <p className="text-muted">Start working with Jobcy that can provide everything you need to generate
-                                            awareness, drive traffic, connect.</p>
+                                        <h3 className="title">Set your preference</h3>
+                                        <p className="text-muted">Get jobs according to your desired requirements, set your goal here. </p>
                                         <Form method="post" className="contact-form mt-4" name="myForm" id="myForm">
                                             <span id="error-msg"></span>
                                             <Row>
@@ -49,7 +48,7 @@ const ContactContent = () => {
                                                 </Col>
                                             </Row>
                                             <div className="text-end">
-                                                <button type="button" id="submit" name="submit" className="btn btn-primary"> Send Message <i className="uil uil-message ms-1"></i></button>
+                                                <button type="button" id="submit" name="submit" className="btn btn-primary"> Set Requirements <i className="uil uil-message ms-1"></i></button>
                                             </div>
                                         </Form>
                                     </div>
@@ -64,7 +63,7 @@ const ContactContent = () => {
                                                 <i className="uil uil-map-marker"></i>
                                             </div>
                                             <div className="flex-grow-1 ms-2">
-                                                <p className="mb-0">2453 Clinton StreetLittle Rock, California, USA</p>
+                                                <p className="mb-0">245 Clinton StreetLittle Rock, Mumbai, India</p>
                                             </div>
                                         </div>
                                         <div className="d-flex text-muted align-items-center mt-2">
@@ -72,7 +71,7 @@ const ContactContent = () => {
                                                 <i className="uil uil-envelope"></i>
                                             </div>
                                             <div className="flex-grow-1 ms-2">
-                                                <p className="mb-0">contactus@Jobcy.com</p>
+                                                <p className="mb-0">krishshah74@gmail.com</p>
                                             </div>
                                         </div>
                                         <div className="d-flex text-muted align-items-center mt-2">
@@ -80,7 +79,7 @@ const ContactContent = () => {
                                                 <i className="uil uil-phone-alt"></i>
                                             </div>
                                             <div className="flex-grow-1 ms-2">
-                                                <p className="mb-0">(+245) 223 1245</p>
+                                                <p className="mb-0">(+91) 8655 011 052</p>
                                             </div>
                                         </div>
                                     </div>
@@ -88,9 +87,9 @@ const ContactContent = () => {
                             </Row>                            
                         </Container>                        
                     </section>
-                    <div className="map">
+                    {/* <div className="map">
                         <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509157.364974411!2d-123.79641389801948!3d37.193115265681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sin!4v1628684675253!5m2!1sen!2sin" height="350" style={{border:`0` ,width: `100%`}} allowFullScreen="" loading="lazy"></iframe>
-                    </div>
+                    </div> */}
         </React.Fragment>
     )
 }

@@ -214,7 +214,7 @@ const NavBar = (props) => {
                                 </ul>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/contact">Contact</Link>
+                                <Link className="nav-link" to="/job-requirements">Job Requirements</Link>
                             </NavItem>
                         </ul>
                     </Collapse>
@@ -313,7 +313,7 @@ const NavBar = (props) => {
                             className="list-inline-item">
                             <DropdownToggle to="#" className="header-item" id="userdropdown" type="button" tag="a"
                                 aria-expanded="false">
-                                <img src={profileImage} alt="mdo" width="35" height="35" className="rounded-circle me-1" /> <span className="d-none d-md-inline-block fw-medium">Hi, Jennifer</span>
+                                <img src={profileImage} alt="mdo" width="35" height="35" className="rounded-circle me-1" /> <span className="d-none d-md-inline-block fw-medium">Hi, Idris</span>
                             </DropdownToggle>
                             <DropdownMenu className="dropdown-menu-end" aria-labelledby="userdropdown" end>
                                 <li><Link className="dropdown-item" to="/managejobs">Manage Jobs</Link></li>

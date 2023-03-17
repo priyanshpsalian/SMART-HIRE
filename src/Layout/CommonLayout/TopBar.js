@@ -68,7 +68,7 @@ const TopBar = () => {
                     {" "}
                     <i className="mdi mdi-map-marker"></i> Your Location:{" "}
                     <Link to="#" className="text-dark">
-                      New Caledonia
+                      Mumbai
                     </Link>
                   </p>
                 </li>
@@ -212,7 +212,7 @@ const TopBar = () => {
                   >
                     <DropdownToggle tag="button" type="button" className="btn">
                       <img                        
-                        src={flagUs}
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/800px-Flag_of_India.svg.png"
                         alt=""
                         height="16"
                       />
@@ -282,7 +282,7 @@ const TopBar = () => {
                           className="me-1"
                           height="12"
                         />
-                        <span className="align-middle">Russian</span>
+                        <span className="align-middle">Indian</span>
                       </DropdownItem>
                     </DropdownMenu>
                   </Dropdown>
