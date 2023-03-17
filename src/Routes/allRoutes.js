@@ -77,6 +77,9 @@ const userRoutes = [
   { path : "/bloggrid", component: BlogGrid },
   { path : "/blog", component: Blog },
 
+  //Tips section
+  { path : "/get-tips", component: BlogAuther },
+
   //Candidate and Company Section
   { path : "/companydetails", component: CompanyDetails },
   { path : "/companylist", component: CompanyList },

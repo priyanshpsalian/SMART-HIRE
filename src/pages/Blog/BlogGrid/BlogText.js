@@ -15,30 +15,30 @@ const BlogText = () => {
             id:1,
             blogImage :blogImage4, 
             blogAuther: "Alice Mellor",
-            blogDate: "Aug 08, 2021", 
-            blogCount : 432,
-            blogTitle : "Smartest Applications for Business", 
-            blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
+            blogDate: "Aug 08, 2022", 
+            blogCount : 32,
+            blogTitle : "Software Engineer", 
+            blogContent : "I can do everything on my own schedule. From picking out interview time slots to selecting only the companies I want to interview with, this is what recruiting should look like."
 
         },
         {
             id:2,
             blogImage :blogImage5, 
             blogAuther: "Kiera Finch",
-            blogDate: "July 23, 2021", 
-            blogCount : 247,
-            blogTitle : "How To Increase Trade Show Traffic", 
-            blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
+            blogDate: "July 23, 2022", 
+            blogCount : 47,
+            blogTitle : "Senior UX Designer", 
+            blogContent : "I've never felt so taken care of by a recruiter in my life. Saying my Talent Advocate goes above and beyond is an understatement. She clearly loves what she does, and that devotion is absolutely contagious."
 
         },
         {
             id:3,
             blogImage :blogImage6, 
             blogAuther: "Toby Lees",
-            blogDate: "July 11, 2021", 
-            blogCount : 188,
-            blogTitle : "How apps is changing the IT world", 
-            blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
+            blogDate: "July 11, 2022", 
+            blogCount : 18,
+            blogTitle : "Mechanical Engineer", 
+            blogContent : "Finding a new job is tedious and stressful. Working with Hired meant multiple companies that were a good fit were looking to hire me."
 
         },
         {
@@ -46,19 +46,19 @@ const BlogText = () => {
             blogImage :blogImage7, 
             blogAuther: "Dominic Potter",
             blogDate: "June 19, 2021", 
-            blogCount : 475,
-            blogTitle : "Design your apps in your own way.", 
-            blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
+            blogCount : 75,
+            blogTitle : "Software Engineer", 
+            blogContent : "With Hired, companies were highly responsive and moved through the process very quickly. I never had to wait more than a couple days to hear back from anyone."
 
         },
         {
             id:5,
             blogImage :blogImage8, 
             blogAuther: "Leon Davey",
-            blogDate: "June 04, 2021", 
-            blogCount : 310,
-            blogTitle : "How to get creative in your work", 
-            blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
+            blogDate: "June 04, 2022", 
+            blogCount : 10,
+            blogTitle : "Junior React Developer", 
+            blogContent : "Hired is the absolute best way to find a tech or design job. Having a person dedicated to you is very helpful. My Talent Advocate helped me through every step of the process, including negotiating offers and deciding which offer was right for me."
 
         },
         {
@@ -66,33 +66,33 @@ const BlogText = () => {
             blogImage :blogImage9, 
             blogAuther: "Harvey Bird",
             blogDate: "Feb 28, 2021", 
-            blogCount : 158,
-            blogTitle : "What planning process needs ?", 
-            blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
+            blogCount : 58,
+            blogTitle : "IT professional", 
+            blogContent : "I've never felt so taken care of by a recruiter in my life. Saying my Talent Advocate goes above and beyond is an understatement. She clearly loves what she does, and that devotion is absolutely contagious."
 
         }       
     ]
     const blogVideo =[
-        {
-            id:1,
-            blogLink :"https://www.youtube.com/embed/1y_kfWUCFDQ", 
-            blogAuther: "Harvey Bird",
-            blogDate: "Feb 21, 2021", 
-            blogCount : 110,
-            blogTitle : "How to become a best sale marketer in a year!", 
-            blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
+        // {
+        //     id:1,
+        //     blogLink :"https://www.youtube.com/embed/1y_kfWUCFDQ", 
+        //     blogAuther: "Harvey Bird",
+        //     blogDate: "Feb 21, 2021", 
+        //     blogCount : 110,
+        //     blogTitle : "How to become a best sale marketer in a year!", 
+        //     blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
 
-        },
-        {
-            id:2,
-            blogLink :"https://www.youtube.com/embed/1y_kfWUCFDQ", 
-            blogAuther: "Harvey Bird",
-            blogDate: "Feb 09, 2021", 
-            blogCount : 244,
-            blogTitle : "A day in the of a professional fashion designer", 
-            blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
+        // },
+        // {
+        //     id:2,
+        //     blogLink :"https://www.youtube.com/embed/1y_kfWUCFDQ", 
+        //     blogAuther: "Harvey Bird",
+        //     blogDate: "Feb 09, 2021", 
+        //     blogCount : 244,
+        //     blogTitle : "A day in the of a professional fashion designer", 
+        //     blogContent : "Intrinsically incubate intuitive opportunities and real-time potentialities Appropriately communicate one-to-one technology."
 
-        }
+        // }
     ]
 
     return (

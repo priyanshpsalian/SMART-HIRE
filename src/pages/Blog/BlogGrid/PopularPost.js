@@ -12,25 +12,25 @@ const PopularPost = () => {
     const popularPost =[
         {
             id:1,
-            postText :"The evolution of landing page creativity", 
+            postText :"Talent Advocate goes above and beyond", 
             postdate : "Aug 10, 2021",
             postImage :blogImage1
         }, 
         {
             id:2,
-            postText :"Beautiful day with friends in paris", 
+            postText :"Working with Hired meant multiple companies", 
             postdate : "Jun 24, 2021",
             postImage :blogImage2
         },
         {
             id:3,
-            postText :"Project discussion with team", 
+            postText :"Talent Advocate helped me through", 
             postdate : "July 13, 2021",
             postImage :blogImage3
         },
         {
             id:4,
-            postText :"Smartest Applications for Business", 
+            postText :"I never had to wait more than", 
             postdate : "Feb 01, 2021",
             postImage :blogImage10
         }

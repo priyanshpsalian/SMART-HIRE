@@ -201,17 +201,19 @@ const NavBar = (props) => {
                             </li>
                             <NavItem className="dropdown dropdown-hover">
                                 <NavLink to="/#" id="productdropdown" role="button" data-bs-toggle="dropdown" onClick={() => setBlog(!blog)}>
-                                    Blog
+                                    Success Stories
                                     <div className="arrow-down"></div>
                                 </NavLink>
                                 <ul className={classname("dropdown-menu dropdown-menu-center", { show: blog })} aria-labelledby="productdropdown">
-                                    <li><Link className="dropdown-item" to="/blog">Blog</Link></li>
-                                    <li><Link className="dropdown-item" to="/bloggrid">Blog Grid</Link></li>
+                                    <li><Link className="dropdown-item" to="/blog">Admin Stories</Link></li>
+                                    <li><Link className="dropdown-item" to="/bloggrid">User Stories</Link></li>
+                                    {/* <li><Link className="dropdown-item" to="/blogmasonary">User Stories</Link></li>
                                     <li><Link className="dropdown-item" to="/blogmodern">Blog Modern</Link></li>
-                                    <li><Link className="dropdown-item" to="/blogmasonary">Blog Masonry</Link></li>
-                                    <li><Link className="dropdown-item" to="/blogdetails">Blog details</Link></li>
-                                    <li><Link className="dropdown-item" to="/blogauther">Blog Author</Link></li>
+                                    <li><Link className="dropdown-item" to="/blogdetails">Blog details</Link></li> */}
                                 </ul>
+                            </NavItem>
+                            <NavItem>
+                                <Link className="nav-link" to="/get-tips">Get a Tip</Link>
                             </NavItem>
                             <NavItem>
                                 <Link className="nav-link" to="/job-requirements">Job Requirements</Link>

@@ -31,7 +31,7 @@ const BlogDetails = () => {
                 <BlogSwiper />
                 <BlogColumn />
                 <BlogComments />
-                <BlogForm />
+                {/* <BlogForm /> */}
                 <BlogPost />
               </div>
             </Col>

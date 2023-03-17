@@ -5,27 +5,27 @@ const Archives = () => {
     const archives = [
         {
             id:1,
-            date: "March 2021",
+            date: "March 2022",
             views : 40
         },
         {
             id:2,
-            date: "April 2021",
+            date: "April 2022",
             views : "08"
         },
         {
             id:3,
-            date: "Nov 2020",
+            date: "Nov 2021",
             views : 32
         },
         {
             id:4,
-            date: "May 2020",
+            date: "May 2021",
             views : 11
         },
         {
             id:5,
-            date: "Jun 2019",
+            date: "Jun 2020",
             views : 21
         }
     ]
