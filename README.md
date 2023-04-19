@@ -1,8 +1,8 @@
-# SmartHire: A Next-Generation Hiring Platform
+# SmartHire: A Next-Generation Hiring Platform 🚀
 
 Welcome to SmartHire, a web-based application that simplifies and automates the hiring process by allowing applicants to create detailed profiles with all their relevant information and recruiters to post jobs and filter through the applicants based on their eligibility criteria. The app uses machine learning algorithms to match the best candidates for the job and provide recruiters with a list of top candidates, eliminating the need for manual filtering of applications.
 
-## Features
+## Features 🌟
 
 - **Job Postings:** Recruiters can create job postings with eligibility criteria, job description, required skills, responsibilities, salary, and set the duration of the job posting. The job postings should NOT be visible to the applicants.
 - **Machine Learning Algorithms:** The app uses machine learning algorithms to match the best candidates for the job based on their eligibility criteria and generate a score called 'Job Fit Score' or JFS for each applicant for each job posting.
@@ -10,7 +10,7 @@ Welcome to SmartHire, a web-based application that simplifies and automates the 
 - **Tie-Breaking:** If there is a tie between two candidates, the app will consider additional criteria such as subjective questions, experience, and other relevant factors.
 - **Candidate Feedback:** To further improve the UX, the app should provide feedback to candidates on their application status, improving the candidate experience. It should also let them know about what skills they are missing, what skills are in high demand, salary statistics, why they didn't get shortlisted for a certain job posting, etc.
 
-## Getting Started
+## Getting Started 🚀
 
 To get started with SmartHire, clone this repository and follow the steps below:
 
@@ -18,7 +18,7 @@ To get started with SmartHire, clone this repository and follow the steps below:
 - Start the development server by running `npm start`.
 - Navigate to `http://localhost:3000` in your browser to use the application.
 
-## Contributing
+## Contributing 🤝
 
 This project is open to contributions from the community. To contribute, please follow the steps below:
 
@@ -28,9 +28,13 @@ This project is open to contributions from the community. To contribute, please 
 - Push to the branch: `git push origin my-feature-branch`.
 - Submit a pull request.
 
-## License
+## License 📝
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Authors 👨‍💻
 
-Thank you for your interest in SmartHire!
+- [Author's Name] 🙋‍♂️
+- [Collaborator's Name] 🤝
+
+Thank you for your interest in SmartHire! 🎉```
