@@ -1,70 +1,36 @@
-# Getting Started with Create  React App
+# SmartHire: A Next-Generation Hiring Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to SmartHire, a web-based application that simplifies and automates the hiring process by allowing applicants to create detailed profiles with all their relevant information and recruiters to post jobs and filter through the applicants based on their eligibility criteria. The app uses machine learning algorithms to match the best candidates for the job and provide recruiters with a list of top candidates, eliminating the need for manual filtering of applications.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Job Postings:** Recruiters can create job postings with eligibility criteria, job description, required skills, responsibilities, salary, and set the duration of the job posting. The job postings should NOT be visible to the applicants.
+- **Machine Learning Algorithms:** The app uses machine learning algorithms to match the best candidates for the job based on their eligibility criteria and generate a score called 'Job Fit Score' or JFS for each applicant for each job posting.
+- **Subjective Questions:** The application should have subjective questions that candidates need to answer, eliminating duplicate applications.
+- **Tie-Breaking:** If there is a tie between two candidates, the app will consider additional criteria such as subjective questions, experience, and other relevant factors.
+- **Candidate Feedback:** To further improve the UX, the app should provide feedback to candidates on their application status, improving the candidate experience. It should also let them know about what skills they are missing, what skills are in high demand, salary statistics, why they didn't get shortlisted for a certain job posting, etc.
 
-### `yarn start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To get started with SmartHire, clone this repository and follow the steps below:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Install the dependencies by running `npm install`.
+- Start the development server by running `npm start`.
+- Navigate to `http://localhost:3000` in your browser to use the application.
 
-### `yarn test`
+## Contributing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is open to contributions from the community. To contribute, please follow the steps below:
 
-### `yarn build`
+- Fork this repository.
+- Create a new branch with your changes: `git checkout -b my-feature-branch`.
+- Commit your changes: `git commit -m "Add some feature"`.
+- Push to the branch: `git push origin my-feature-branch`.
+- Submit a pull request.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your interest in SmartHire!
