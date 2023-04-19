@@ -32,9 +32,5 @@ This project is open to contributions from the community. To contribute, please 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Authors 👨‍💻
-
-- [Author's Name] 🙋‍♂️
-- [Collaborator's Name] 🤝
 
 Thank you for your interest in SmartHire! 🎉```
